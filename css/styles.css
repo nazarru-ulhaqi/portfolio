@@ -257,3 +257,115 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* -----------------------------
+   Additional styles: Research / Exercises / Notes
+   ----------------------------- */
+
+/* Section container */
+section {
+    margin-bottom: 3rem;
+    padding: 1rem 0;
+}
+
+/* Section heading */
+section h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.6rem;
+}
+
+/* Grid layout for items inside each section */
+section > .items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Card-like item */
+.item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 6px 18px var(--shadow);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Hover lift */
+.item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 36px var(--shadow);
+}
+
+/* Item title */
+.item h3 {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Paragraph copy */
+.item p {
+    color: var(--text-secondary);
+    line-height: 1.5;
+    font-size: 0.98rem;
+}
+
+/* Meta info like course/date */
+.item-meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* Action link styled as button */
+.item a {
+    margin-top: 0.5rem;
+    align-self: flex-start;
+    padding: 0.45rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid var(--accent);
+    background: transparent;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.18s ease, color 0.18s ease, transform 0.12s ease;
+}
+
+/* Hover / focus state for links */
+.item a:hover,
+.item a:focus {
+    background: var(--accent);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px var(--shadow);
+}
+
+/* Make sure long descriptions wrap neatly */
+.item .project-description,
+.item p {
+    word-break: break-word;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 1.35rem;
+    }
+
+    .item {
+        padding: 1rem;
+    }
+}
