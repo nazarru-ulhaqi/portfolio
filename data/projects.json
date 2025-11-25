@@ -1,0 +1,26 @@
+[
+  {
+    "logo": "CHGNet",
+    "title": "CHGNet",
+    "paperUrl": "https://example.com/paper",
+    "codeUrl": "https://github.com/your-username/chgnet",
+    "date": "2023-9-14",
+    "description": "Pretrained universal neural network potential for charge-informed atomistic modeling published on the Sep 2023 cover of NMI."
+  },
+  {
+    "logo": "Matbench",
+    "title": "Matbench Discovery",
+    "paperUrl": "https://example.com/paper",
+    "codeUrl": "https://github.com/your-username/matbench",
+    "date": "2025-6",
+    "description": "Benchmark for machine learning energy models simulating a real-world materials discovery campaign."
+  },
+  {
+    "logo": "R⁺",
+    "title": "TorchSim",
+    "paperUrl": "https://example.com/paper",
+    "codeUrl": "https://github.com/your-username/torchsim",
+    "date": "2025",
+    "description": "Torch-native, batchable, atomistic simulations."
+  }
+]
