@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculus of Variations – Problem Sets</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/topic-loader.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <a href="../index.html" class="back-btn">← Back</a>
+    <h1>Calculus of Variations – Problem Sets</h1>
+  </header>
+
+  <section>
+    <div id="pset-list" class="items-grid"></div>
+  </section>
+
+</body>
+</html>
