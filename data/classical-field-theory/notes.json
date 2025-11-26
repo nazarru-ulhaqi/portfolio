@@ -1,0 +1,20 @@
+[
+  {
+    "title": "1: Fields and the Action Principle",
+    "description": "Scalar, vector, spinor fields; Lagrangian density and action; Units and conventions; Euler–Lagrange equations for fields ",
+    "file": "notes.pdf",
+    "type": "note"
+  },
+  {
+    "title": 2: Noether's Theorem",
+    "description": "Symmetries and conserved currents; examples for scalar and gauge fields.",
+    "file": "lecture2.pdf",
+    "type": "note"
+  },
+  {
+    "title": "Worked Example: Klein-Gordon",
+    "description": "Derivation of the Klein–Gordon equation and simple solutions.",
+    "file": "kg-worked.pdf",
+    "type": "note"
+  }
+]
