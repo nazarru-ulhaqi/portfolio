@@ -2,11 +2,13 @@
   {
     "title": "Pset1",
     "description": "Euler-Lagrange basic.",
-    "file": "pset1.pdf"
-  }
+    "file": "pset1.pdf",
+    "type": "pset"
+  },
   {
     "title": "Solution: Pset1",
-    "descripiton": "Solution to Pset1: Euler-Lagrange basic.",
-    "file": "solution1.pdf"
+    "description": "Solution to Pset1: Euler-Lagrange basic.",
+    "file": "solution1.pdf",
+    "type": "solution"
   }
 ]
